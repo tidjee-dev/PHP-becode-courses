@@ -23,8 +23,8 @@ This repository contains my PHP course projects from BeCode.
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/your-repo/becode-php-courses.git
-   cd becode-php-courses
+   git clone https://github.com/tidjee-dev/PHP-becode-courses.git
+   cd PHP-becode-courses
    ```
 
 2. **Run Docker Containers**:
@@ -37,8 +37,8 @@ This repository contains my PHP course projects from BeCode.
 
    - Open your browser and navigate to:
      - [http://localhost](http://localhost) for the application.
-     - [http://localhost/phpma](http://localhost/phpma) for PHPMyAdmin.
-     - [http://localhost/adminer](http://localhost/adminer) for Adminer.
+     - [http://localhost:8081](http://localhost:8081) for PHPMyAdmin.
+     - [http://localhost:8082](http://localhost:8082) for Adminer.
 
 4. **Stop Docker Containers**:
 
