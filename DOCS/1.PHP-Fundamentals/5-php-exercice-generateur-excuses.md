@@ -10,16 +10,16 @@ You need a form with these questions:
 1. Gender of the child (girl or boy)
 1. name of the teacher
 1. a reason for the absence to be chosen among options (radio type input):
-    1. illness
-    1. death of the pet (or a family member)
-    1. significant extra-curricular activity
-    1. any other excuse of your choice
-  
-For each option, invent an appropriate excuse according to the chosen option ([inspiration](http://www.textes-voeux.com/excuse-absence-eleve/)).  
+   1. illness
+   1. death of the pet (or a family member)
+   1. significant extra-curricular activity
+   1. any other excuse of your choice
+
+For each option, invent an appropriate excuse according to the chosen option ([inspiration](http://www.textes-voeux.com/excuse-absence-eleve/)).
 
 ## Objective
 
-With the help of a condition, generates the appropriate excuse word based on the answers to the form.  The parent will only have to copy and paste the answer to write his or her letter of apology.
+With the help of a condition, generates the appropriate excuse word based on the answers to the form. The parent will only have to copy and paste the answer to write his or her letter of apology.
 
 ## BONUS
 

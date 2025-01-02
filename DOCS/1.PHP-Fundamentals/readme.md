@@ -1,6 +1,5 @@
 # PHP Fundamentals
 
-
 1. [Introduction](1.1-php-introduction.md) + [Installation](1.2-php-installation)
 2. [Variables](2-php-variables.md)
 3. [Conditional structures](3-php-conditions.md)
@@ -11,6 +10,6 @@
 8. [Functions](8-php-fonctions.md)
 9. [Form](9-php-formulaires.md)
 
-*. [cookies.md](cookies.md)
+\*. [cookies.md](cookies.md)
 
 ![PhpDev](./assets/phpDevCommit.jpg)
