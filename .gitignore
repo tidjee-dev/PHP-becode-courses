@@ -1,1 +1,6 @@
-/compose.yml
+# Files
+.env
+
+# Directories
+build
+node_modules

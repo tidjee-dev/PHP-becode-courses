@@ -55,11 +55,3 @@ Contributions are welcome! Please follow these steps:
 3. Commit your changes: `git commit -m "Add feature-name"`.
 4. Push the changes: `git push origin feature-name`.
 5. Create a pull request.
-
-## Screenshots/Examples
-
-![Screenshot of Application](link-to-screenshot)
-
-## License
-
-This repository is licensed under the MIT License. See the `LICENSE` file for more details.
