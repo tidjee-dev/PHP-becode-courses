@@ -36,13 +36,8 @@
           echo "&lt;p&gt;Hi! My name is $firstname.&lt;/p&gt;";<br>
           echo "&lt;p&gt;Hi! My name is " . $firstname . ".&lt;/p&gt;" ;<br>
         </code>
-          <pre><code class="language-php">
-$firstname = "Donatien";
-echo "&lt;p&gt;Hi! My name is $firstname.&lt;/p&gt;";
-echo "&lt;p&gt;Hi! My name is " . $firstname . ".&lt;/p&gt;";
-</code></pre>
-
         </div>
+
         <div class="exo">
           <h3 class="exo-title">Result:</h3>
           <div class="exo-result">
