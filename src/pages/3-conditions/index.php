@@ -73,7 +73,7 @@ echo "&lt;p&gt;You should wear a scarf : " . ($should_wear_scarf ? "Yes" : "No")
 
       <section class="exos-container">
         <h2 class="exos-title">
-          1. Use of nested conditions
+          2. Use of nested conditions
         </h2>
         <div class="code-container">
           <h3 class="code-title">Code:</h3>
