@@ -33,10 +33,7 @@
         </h2>
         <div class="code-container">
           <h3 class="code-title">Code:</h3>
-          <pre>
-          <code class="language-php">
-$temperature = 18;
-
+          <pre><code class="language-php">$temperature = 18;
 if ($temperature >= 15) {
   $clothes = "T-shirt";
   $should_wear_scarf = false;
@@ -48,7 +45,7 @@ if ($temperature >= 15) {
 echo "&lt;p&gt;The temperature is $temperature °C.&lt;/p&gt;";
 echo "&lt;p&gt;You should wear a $clothes.&lt;/p&gt;";
 echo "&lt;p&gt;You should wear a scarf : " . ($should_wear_scarf ? "Yes" : "No") . ".&lt;/p&gt;";
-        </code></pre>
+</code></pre>
         </div>
 
         <div class="exo">
@@ -80,8 +77,7 @@ echo "&lt;p&gt;You should wear a scarf : " . ($should_wear_scarf ? "Yes" : "No")
         </h2>
         <div class="code-container">
           <h3 class="code-title">Code:</h3>
-          <pre><code class="language-php">
-$temperature = 18;
+          <pre><code class="language-php">$temperature = 18;
 $is_raining = true;
 
 if ($temperature >= 15) {
@@ -97,7 +93,7 @@ if ($temperature >= 15) {
     echo "&lt;p&gt;The temperature is $temperature °C. &lt;br&gt; Wear a sweater.&lt;/p&gt;";
   }
 }
-      </code></pre>
+</code></pre>
         </div>
 
         <div class="exo">
