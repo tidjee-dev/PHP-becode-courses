@@ -202,7 +202,7 @@ nav li {
   grid-template-areas:
     "title title"
     "code exos";
-  grid-template-columns: repeat(2, minmax(300px, 1fr));
+  grid-template-columns: 2fr 1fr;
   gap: 1rem;
 
 }
@@ -215,8 +215,8 @@ nav li {
 }
 
 .code-container {
-  background: #444;
-  color: #fff;
+  background: #282c34;
+  color: #f8f8f2;
   padding: 1rem;
   border-radius: 6px;
   overflow-x: auto;
@@ -230,10 +230,9 @@ nav li {
   text-decoration: underline;
 }
 
-.code {
-  font-family: 'Courier New', monospace;
-  font-size: 0.9rem;
-  line-height: 1.5;
+pre {
+  margin: 0;
+  padding: 0;
 }
 
 .exo {
@@ -269,4 +268,14 @@ footer {
   align-items: center;
   justify-content: center;
   gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .exos-container {
+    grid-template-areas:
+      "title"
+      "code"
+      "exos";
+    grid-template-columns: 1fr;
+  }
 }

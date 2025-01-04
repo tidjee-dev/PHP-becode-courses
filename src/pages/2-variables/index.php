@@ -4,6 +4,8 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/tokyo-night-dark.min.css">
     <link rel="stylesheet" href="/assets/styles.css">
     <title>PHP Fundamentals : Variables | BeCode PHP Courses</title>
   </head>
@@ -31,11 +33,12 @@
         </h2>
         <div class="code-container">
           <h3 class="code-title">Code:</h3>
-          <code class="code">
-          $firstname = "Donatien";<br>
-          echo "&lt;p&gt;Hi! My name is $firstname.&lt;/p&gt;";<br>
-          echo "&lt;p&gt;Hi! My name is " . $firstname . ".&lt;/p&gt;" ;<br>
-        </code>
+          <pre>
+<code class="language-php">$firstname = "Donatien";
+echo "&lt;p&gt;Hi! My name is $firstname.&lt;/p&gt;";
+echo "&lt;p&gt;Hi! My name is " . $firstname . ".&lt;/p&gt;";
+</code>
+          </pre>
         </div>
 
         <div class="exo">
@@ -56,11 +59,12 @@
         <h2 class="exos-title">2. Set and Display "integer" variables</h2>
         <div class="code-container">
           <h3 class="code-title">Code:</h3>
-          <code class="code">
-          $age = 25;<br>
-          echo "&lt;p&gt;I am $age years old.&lt;/p&gt;";<br>
-          echo "&lt;p&gt;I am " . $age . " years old.&lt;/p&gt;";<br>
-        </code>
+          <pre>
+<code class="language-php">$age = 25;
+echo "&lt;p&gt;I am $age years old.&lt;/p&gt;";
+echo "&lt;p&gt;I am " . $age . " years old.&lt;/p&gt;";
+</code>
+          </pre>
         </div>
         <div class="exo">
           <h3 class="exo-title">Result:</h3>
@@ -80,11 +84,12 @@
         <h2 class="exos-title">3. Set and Display another "string" variables</h2>
         <div class="code-container">
           <h3 class="code-title">Code:</h3>
-          <code class="code">
-          $eyes_color = "green";<br>
-          echo "&lt;p&gt;My eyes are $eyes_color.&lt;/p&gt;";<br>
-          echo "&lt;p&gt;My eyes are " . $eyes_color . ".&lt;/p&gt;";<br>
-        </code>
+          <pre>
+<code class="language-php">$eyes_color = "green";
+echo "&lt;p&gt;My eyes are $eyes_color.&lt;/p&gt;";
+echo "&lt;p&gt;My eyes are " . $eyes_color . ".&lt;/p&gt;";
+</code>
+          </pre>
         </div>
         <div class="exo">
           <h3 class="exo-title">Result:</h3>
@@ -104,11 +109,12 @@
         <h2 class="exos-title">4. Set and Display "array" variables</h2>
         <div class="code-container">
           <h3 class="code-title">Code:</h3>
-          <code class="code">
-          $family_members = ["Léa", "Donatien", "Ottavia"];<br>
-          echo "&lt;p&gt;The first person in my family is $family_members[0].&lt;/p&gt;";<br>
-          echo "&lt;p&gt;The first person in my family is " . $family_members[0] . ".&lt;/p&gt;";<br>
-        </code>
+          <pre>
+<code class="language-php">$family_members = ["Léa", "Donatien", "Ottavia"];
+echo "&lt;p&gt;The first person in my family is $family_members[0].&lt;/p&gt;";
+echo "&lt;p&gt;The first person in my family is " . $family_members[0] . ".&lt;/p&gt;";
+</code>
+          </pre>
         </div>
         <div class="exo">
           <h3 class="exo-title">Result:</h3>
@@ -128,17 +134,18 @@
         <h2 class="exos-title">5. Set and Display "boolean" variables</h2>
         <div class="code-container">
           <h3 class="code-title">Code:</h3>
-          <code class="code">
-          $is_hungry = true;<br>
-          echo "&lt;p&gt;Am I hungry? : " . ($is_hungry ? "Yes" : "No") . "&lt;/p&gt;";<br>
-        </code>
+          <pre>
+<code class="language-php">$is_hungry = true;
+echo "&lt;p&gt;Am I hungry? " . ($is_hungry ? "Yes" : "No") . ".&lt;/p&gt;";
+</code>
+          </pre>
         </div>
         <div class="exo">
           <h3 class="exo-title">Result:</h3>
           <div class="exo-result">
             <?php
           $is_hungry = true;
-          echo "<p>Am I hungry? : " . ($is_hungry ? "Yes" : "No") . ".</p>";
+          echo "<p>Am I hungry? " . ($is_hungry ? "Yes" : "No") . ".</p>";
           ?>
           </div>
         </div>
@@ -154,6 +161,15 @@
         </a>
       </p>
     </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js">
+    </script>
+
+    <script>
+    hljs.highlightAll();
+    </script>
+
+
   </body>
 
 </html>
