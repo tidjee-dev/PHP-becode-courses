@@ -149,7 +149,7 @@
       <p>&copy; <?php echo date('Y'); ?> - Tidjee's BeCode PHP Courses</p>
       <p>
         <a href=" https://github.com/tidjee-dev/PHP-becode-courses" target="_blank">
-          <img src="https://img.shields.io/badge/View_on_GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
+          <img src="https://img.shields.io/badge/View_on_GitHub-100000?logo=github&logoColor=white"
                alt="View on GitHub">
         </a>
       </p>
