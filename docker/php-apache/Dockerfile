@@ -1,10 +1,19 @@
 FROM php:8.2-apache
 
-# Enable Apache modules for rewrite and proxy
 RUN a2enmod rewrite proxy proxy_http
 
-# Copy the custom Apache configuration
 COPY ./my-vhost.conf /etc/apache2/sites-available/000-default.conf
 
-# Expose port 80
+RUN chown -R www-data:www-data /var/www/html && chmod -R 755 /var/www/html
+
+RUN apt-get update && apt-get install -y \
+  zip \
+  unzip \
+  vim \
+  curl \
+  git \
+  && docker-php-ext-install mysqli pdo pdo_mysql
+
 EXPOSE 80
+
+CMD ["apache2-foreground"]

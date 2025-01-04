@@ -45,13 +45,3 @@ This repository contains my PHP course projects from BeCode.
    ```bash
    docker compose down
    ```
-
-## Contribution
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature-name`.
-3. Commit your changes: `git commit -m "Add feature-name"`.
-4. Push the changes: `git push origin feature-name`.
-5. Create a pull request.
