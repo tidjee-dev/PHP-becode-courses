@@ -12,7 +12,7 @@ services:
       - mysql
       - phpmyadmin
       - adminer
-  ###< APACHE ###
+  ###< PHP APACHE ###
 
   ###> MYSQL ###
   mysql:
