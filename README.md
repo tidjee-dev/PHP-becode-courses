@@ -11,7 +11,7 @@ This repository contains my PHP course projects from BeCode.
 - **MySQL**: As the database server.
 - **PHPMyAdmin**: To manage databases visually.
 - **Adminer**: As an alternative database management tool.
-- **Nginx**: As the web server.
+- **Apache**: As the web server.
 
 ## Prerequisites
 
