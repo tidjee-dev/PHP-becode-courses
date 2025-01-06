@@ -42,7 +42,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   ];
 
   $selected_excuse = $excuses[$reason][array_rand($excuses[$reason])];
-  $date = date("d F Y");
+  $date = date('l, \t\h\e d F Y');
   $polite_phrase = "Thank you for your understanding and support.";
 
   $excuse_data = [
