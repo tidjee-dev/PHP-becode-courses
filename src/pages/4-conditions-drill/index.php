@@ -1009,7 +1009,7 @@ if (isset($_GET['player-name2']) && isset($_GET['player-age2']) && isset($_GET['
   $gif = $species === "human" ? $humanGif : ($species === "cat" ? $catGif : $unicornGif);
 
   echo "<h2>You chose: " . ucfirst($species) . "!</h2>";
-  echo "<img src='$gif' alt='$species gif'>";
+  echo "&lt;img src='$gif' alt='$species gif'&gt;";
 } else {
   echo "Please select a species!";
 }
@@ -1049,16 +1049,8 @@ if (isset($_GET['player-name2']) && isset($_GET['player-age2']) && isset($_GET['
 
               $gif = $species === "human" ? $humanGif : ($species === "cat" ? $catGif : $unicornGif);
 
-              if ($species === "human") {
-                echo "<h2>You chose: " . ucfirst($species) . "!</h2>";
-                echo "<img src='$gif' alt='$species gif'>";
-              } elseif ($species === "cat") {
-                echo "<h2>You chose: " . ucfirst($species) . "!</h2>";
-                echo "<img src='$gif' alt='$species gif'>";
-              } elseif ($species === "unicorn") {
-                echo "<h2>You chose: " . ucfirst($species) . "!</h2>";
-                echo "<img src='$gif' alt='$species gif'>";
-              }
+              echo "<h2>You chose: " . ucfirst($species) . "!</h2>";
+              echo "<img src='$gif' alt='$species gif'>";
             } else {
               echo "Please select a species!";
             }
