@@ -94,6 +94,21 @@ input[type=radio]:disabled:checked {
   }
 }
 
+.btn-sm {
+  display: inline-block;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  font-size: 0.8rem;
+  border-radius: 0.3rem;
+
+  &:hover {
+    background-color: #555;
+  }
+}
+
 .btn-primary {
   background-color: #007BFF;
   color: #fff;
@@ -180,13 +195,14 @@ nav li {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 1rem;
 }
 
 .return-home-btn {
-  position: fixed;
+  margin: 1rem;
+  position: sticky;
   top: 1rem;
-  left: 1rem;
 }
 
 .separator {
@@ -202,7 +218,7 @@ nav li {
   grid-template-areas:
     "title title"
     "code exos";
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
 
 }
@@ -230,9 +246,9 @@ nav li {
   text-decoration: underline;
 }
 
-pre {
-  margin: 0;
-  padding: 0;
+pre code {
+  white-space: pre-wrap;
+  word-wrap: break-word;
 }
 
 .exo {
@@ -245,6 +261,18 @@ pre {
   flex-direction: column;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+input[type="number"] {
+  width: 100px;
+}
+
 .exo-result {
   margin-top: 0.5rem;
   padding: 0.5rem;
@@ -254,6 +282,7 @@ pre {
   flex-direction: column;
   gap: 0.5rem;
   justify-content: center;
+  align-items: center;
   height: 100%;
 }
 
