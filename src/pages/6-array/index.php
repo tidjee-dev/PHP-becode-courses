@@ -30,12 +30,23 @@
 
     <main class="main">
       <section class="exos-container">
-        <h2 class="exos-title">1. Print the 3rd country</h2>
+        <h2 class="exos-title">1. Array</h2>
         <div class="code-container">
           <h3 class="code-title">Code:</h3>
           <pre><code class="language-php">&lt;?php
 $countries = array('Belgium', 'France', 'Germany', 'Netherlands', 'Ukraine');
 echo $countries[2];
+
+$family_members = array('Léa', 'Donatien', 'Ottavia');
+print_r($family_members);
+
+$recipes = array('Pasta', 'Pizza', 'Lasagna');
+print_r($recipes);
+
+$films = array('Deadpool', 'The Fifth Element', 'Batman');
+print_r($films);
+
+echo $films[1];
 ?&gt;
 </code></pre>
         </div>
@@ -45,6 +56,23 @@ echo $countries[2];
             <?php
           $countries = array('Belgium', 'France', 'Germany', 'Netherlands', 'Ukraine');
           echo $countries[2];
+
+          $family_members = array('Léa', 'Donatien', 'Ottavia');
+          echo "<p>";
+          print_r($family_members);
+          echo "</p>";
+
+          $recipes = array('Pasta', 'Pizza', 'Lasagna');
+          echo "<p>";
+          print_r($recipes);
+          echo "</p>";
+
+          $films = array('Deadpool', 'The Fifth Element', 'Batman');
+          echo "<p>";
+          print_r($films);
+          echo "</p>";
+
+          echo $films[1];
           ?>
           </div>
         </div>
@@ -57,16 +85,6 @@ echo $countries[2];
         <div class="code-container">
           <h3 class="code-title">Code:</h3>
           <pre><code class="language-php">&lt;?php
-$family_members = array('Léa', 'Donatien', 'Ottavia');
-print_r($family_members);
-
-$recipes = array('Pasta', 'Pizza', 'Lasagna');
-print_r($recipes);
-
-$films = array('Deadpool', 'The Fifth Element', 'The Dark Knight');
-print_r($films);
-
-echo $films[1];
 ?&gt;
 </code></pre>
         </div>
@@ -74,22 +92,6 @@ echo $films[1];
           <h3 class="exo-title">Result:</h3>
           <div class="exo-result">
             <?php
-          $family_members = array('Léa', 'Donatien', 'Ottavia');
-          echo "<p>";
-          print_r($family_members);
-          echo "</p>";
-
-          $recipes = array('Pasta', 'Pizza', 'Lasagna');
-          echo "<p>";
-          print_r($recipes);
-          echo "</p>";
-
-          $films = array('Deadpool', 'The Fifth Element', 'The Dark Knight');
-          echo "<p>";
-          print_r($films);
-          echo "</p>";
-
-          echo $films[1];
           ?>
           </div>
         </div>
