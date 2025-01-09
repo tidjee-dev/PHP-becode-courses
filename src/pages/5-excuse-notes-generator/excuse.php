@@ -74,7 +74,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       <p class="message">We would like to inform you that <?php echo $excuse_data['child_name']; ?>
         was unable to attend school due to the following reason:</p>
       <blockquote class="excuse"><?php echo $excuse_data['excuse']; ?></blockquote>
-      <p class="closing">Thank you for your understanding and support.</p>
+      <p class="closing"><?php echo $excuse_data['polite_phrase']; ?></p>
       <p class="closing">Best regards,</p>
       <p class="closing">The Parents of <?php echo $excuse_data['child_name']; ?></p>
 

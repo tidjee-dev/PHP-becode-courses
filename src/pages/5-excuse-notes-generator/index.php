@@ -26,8 +26,8 @@
           <label for="gender">Child's Gender:</label>
           <select id="gender" name="gender" required>
             <option value="" disabled selected hidden>Select Gender</option>
-            <option value="girl">Girl</option>
             <option value="boy">Boy</option>
+            <option value="girl">Girl</option>
           </select>
         </div>
 
