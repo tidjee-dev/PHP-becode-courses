@@ -8,7 +8,7 @@
           href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/tokyo-night-dark.min.css">
 
     <link rel="stylesheet" href="/assets/styles.css">
-    <title>PHP Fundamentals : Array | BeCode PHP Courses</title>
+    <title>PHP Fundamentals : Loops | BeCode PHP Courses</title>
   </head>
 
   <body>
