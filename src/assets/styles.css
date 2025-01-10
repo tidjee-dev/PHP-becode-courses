@@ -312,6 +312,37 @@ input[type="number"] {
   }
 }
 
+/* Alerts */
+.alert {
+  padding: 0.5rem;
+  border-radius: 6px;
+  margin-bottom: 0.5rem;
+}
+
+.alert-success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #155724;
+}
+
+.alert-info {
+  background-color: #d1ecf1;
+  color: #0c5460;
+  border: 1px solid #0c5460;
+}
+
+.alert-warning {
+  background-color: #fff3cd;
+  color: #856404;
+  border: 1px solid #856404;
+}
+
+.alert-error {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #721c24;
+}
+
 /* Footer */
 footer {
   background-color: #333;
@@ -325,6 +356,7 @@ footer {
   gap: 1rem;
 }
 
+/* Responsive */
 @media (max-width: 768px) {
   .exos-container {
     grid-template-areas:
