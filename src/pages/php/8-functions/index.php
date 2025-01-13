@@ -218,7 +218,7 @@ function calculateSumCheck($num3, $num4) {
   if (is_numeric($num3) && is_numeric($num4)) {
     return '&lt;p&gt;The sum of ' . $num3 . ' and ' . $num4 . ' is: ' . $num3 + $num4 . '&lt;/p&gt;';
   }
-  return 'Error: argument is the not a number.';
+  return 'Error: argument is not a number.';
 };
 
 echo '&lt;form method="GET"&gt;';
@@ -250,7 +250,7 @@ if (isset($_GET['num3']) && isset($_GET['num4'])) {
               if (is_numeric($num3) && is_numeric($num4)) {
                 return '<p>The sum of ' . $num3 . ' and ' . $num4 . ' is: ' . $num3 + $num4 . '</p>';
               }
-              return 'Error: argument is the not a number.';
+              return 'Error: argument is not a number.';
             };
 
             echo '<form method="GET">';
@@ -594,7 +594,7 @@ if (isset($_GET['string'])) {
         <hr class="separator">
 
         <section class="exos-container">
-          <h2 class="exos-title">12. calculate cone volume</h2>
+          <h2 class="exos-title">12. Calculate cone volume</h2>
           <div class="code-container">
             <h3 class="code-title">Code:</h3>
             <pre><code class="language-php">&lt;?php
