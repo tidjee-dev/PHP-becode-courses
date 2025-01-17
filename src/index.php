@@ -33,7 +33,8 @@
             $folders = scandir($pagesDir);
             foreach ($folders as $folder) {
               if ($folder !== '.' && $folder !== '..' && is_dir($pagesDir . '/' . $folder)) {
-                echo '<li><a href="/pages/php/' . $folder . '" target="_blank" class="btn btn-outline-primary">' . ucfirst($folder) . '</a></li>';
+                $name = ucwords(strtr($folder, ['_' => ' ', '-' => ' ']));
+                echo '<li><a href="/pages/php/' . $folder . '" target="_blank" class="btn btn-outline-primary">' . $name . '</a></li>';
               }
             }
           } else {
@@ -50,7 +51,8 @@
             $folders = scandir($pagesDir);
             foreach ($folders as $folder) {
               if ($folder !== '.' && $folder !== '..' && is_dir($pagesDir . '/' . $folder)) {
-                echo '<li><a href="/pages/php-sql/' . $folder . '" target="_blank" class="btn btn-outline-primary">' . ucfirst($folder) . '</a></li>';
+                $name = ucwords(strtr($folder, ['_' => ' ', '-' => ' ']));
+                echo '<li><a href="/pages/php-sql/' . $folder . '" target="_blank" class="btn btn-outline-primary">' . $name . '</a></li>';
               }
             }
           } else {
